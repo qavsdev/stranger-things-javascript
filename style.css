@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+#answer-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.answers {
+  flex: 49%;
+  border: 1px solid #d30d10;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+  min-height: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  text-align: center;
+  height: 200px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+#quote-box {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto 20px auto;
+  width: 60%;
+}
+
