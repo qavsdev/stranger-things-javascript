@@ -12,10 +12,9 @@ body {
 }
 
 .answers {
+  cursor: pointer;
   flex: 49%;
   border: 1px solid #d30d10;
-  height: 100px;
-  width: 200px;
   text-align: center;
   font-size: 15px;
   min-height: 100px;
